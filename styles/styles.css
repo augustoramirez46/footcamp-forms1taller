@@ -1,0 +1,96 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Sora';
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(245, 232, 214);
+    height: 100%;
+
+}
+
+.leftDiv {
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.leftDiv__header1 {
+
+    color: rgb(34, 34, 34);
+    font-family: 'Oi', 'regular';
+    font-size: 90px;
+    font-weight: 100;
+    font-kerning: normal;
+    margin-bottom: 0px;
+}
+
+.leftDiv__header1--span {
+    color: rgb(236, 190, 35);
+
+}
+
+.leftDiv__text {
+    color: rgb(49, 49, 49);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.leftDiv__button {
+
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(49, 49, 49);
+    width: 320px;
+    height: 70px;
+
+    font-size: 24px;
+    color: floralwhite;
+    box-shadow: 15;
+    margin-top: 18px;
+
+    transition: all .3s;
+
+}
+
+.leftDiv__button:hover {
+    background-color: rgb(236, 190, 35);
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+
+    height: 75px;
+    margin-top: 35px;
+}
+
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightDiv__img {
+    height: 600px;
+    width: 600px;
+    background-image: url("https://cdn.mequieroir.com/wp-content/uploads/2020/10/Colorado.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+
+    transition: all ease-in-out 1s;
+}
+
+.rightDiv__smalltext {
+    font-size: 9px;
+}
